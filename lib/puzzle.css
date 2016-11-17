@@ -1,6 +1,8 @@
 canvas {
-  margin: 50px;
-  background: url(http://wallpapercave.com/wp/CyT83yY.jpg) center;
+  margin: 100px;
+  background: url('bg.png');
+  background-size: 33.33%;
+  border: 10px solid black;
 }
 
 .orbs {
