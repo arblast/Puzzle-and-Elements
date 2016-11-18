@@ -2,19 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="lib/puzzle.css">
+    <link rel="stylesheet" href="puzzle.css">
     <title>Puzzle and Elements</title>
   </head>
   <body>
-    <img id='fire' class="orbs" src="lib/fire.png"/>
-    <img id='water' class="orbs" src="lib/water.png"/>
-    <img id='wood' class="orbs" src="lib/wood.png"/>
-    <img id='wind' class="orbs" src="lib/wind.png"/>
-    <img id='electric' class="orbs" src="lib/electric.png"/>
-    <img id='psion' class="orbs" src="lib/psion.png"/>
-    <div id='score'>Score</div>
-    <canvas></canvas>
-    <div id='timer'>Timer</div>
+    <h1 class="title">Puzzle and Elements</h1>
+    <div class="game">
+      <img id='fire' class="orbs" src="assets/fire.png"/>
+      <img id='water' class="orbs" src="assets/water.png"/>
+      <img id='wood' class="orbs" src="assets/wood.png"/>
+      <img id='wind' class="orbs" src="assets/wind.png"/>
+      <img id='electric' class="orbs" src="assets/electric.png"/>
+      <img id='psion' class="orbs" src="assets/psion.png"/>
+      <div class='display score'>
+        <h3>Matches</h3>
+        <label>Fire: <p id='fire-matches'>0</p></label>
+        <br>
+        <label>Water: <p id='water-matches'>0</p></label>
+        <br>
+        <label>Wood: <p id='wood-matches'>0</p></label>
+        <br>
+        <label>Electric: <p id='electric-matches'>0</p></label>
+        <br>
+        <label>Psion: <p id='psion-matches'>0</p></label>
+        <br>
+        <label>Wind: <p id='wind-matches'>0</p></label>
+        <br>
+        <label>Total: <p id='total-matches'>0</p></label>
+      </div>
+      <canvas></canvas>
+      <div class='display time'>Time Remaining:
+        <br>
+        <p id='timer'></p>
+      </div>
+    </div>
 
     <script type="text/javascript" src="lib/bundle.js"></script>
 
