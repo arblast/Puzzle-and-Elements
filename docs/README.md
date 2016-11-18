@@ -12,7 +12,7 @@ With Puzzle and Elements, players will be able to:
 - [ ] Matching three or more orbs will cause the set to disappear.
 - [ ] Orbs will drop through any empty spaces, and new random orbs will spawn from top.
 - [ ] Select the difficulty (time to move)
-- [ ] Advance through the levels based on the resolved board.
+- [ ] Display time to move and match statistics after each round.
 
 In addition, this project will include:
 

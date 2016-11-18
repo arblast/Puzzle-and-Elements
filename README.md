@@ -8,7 +8,7 @@ This game is based off of games such as Bejeweled and Candy Crush. The game bein
 
 ###Instructions
 
-To pick up an orb, simply hold down your mouse on the orb you want to pick up. Moving through other orbs will swap them with the position of your current orb. The goal of this game is to make vertical or horizontal matches of three or more orbs of the same color, this will result in the orbs being cleared, and will cause new orbs to fall from the top.
+To pick up an orb, simply hold down your mouse on the orb you want to pick up. Moving through other orbs will swap them with the position of your current orb. The goal of this game is to make vertical or horizontal matches of three or more orbs of the same color, this will result in the orbs being cleared, and will cause new orbs to fall from the top. The amount of time to move can be adjusted by changing the difficulty at the bottom of the game.
 
 ###Tools
 
