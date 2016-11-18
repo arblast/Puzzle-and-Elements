@@ -17,14 +17,22 @@ This game was designed entirely with VanillaJS, HTML5, and canvas, with use of C
 ###Implementation Details
 
 The game consists of two main classes, the `Board` class and the `Orb` class. `Board` handles the logic behind all the matching, and holds all the `Orb`s. `Orb` contains logic for each individual orb such as the rendering and the animations. One of the initial challenges was handling the swapping of the orbs. To achieve this, each time the mouse moved, I iterate over each orb to check for collision, and if there is a swap is made.
-          this.eachOrb( (orb) => {
-            if(Math.sqrt((this.mouseX-orb.x)*(this.mouseX-orb.x) + (this.mouseY-orb.y)*(this.mouseY-orb.y)) < orb.radius) {
-              if (this.selectedOrb != orb && !this.timer) {
-                this.timer = setTimeout(this.checkMouseUp.bind(this), TIMETOMOVE);
-                this.timeLeft = TIMETOMOVE/1000;
-                this.timerStart = Date.now();
-              } else if (this.selectedOrb != orb) {
-                this.swapOrbs(orb);
-              }
-            }
-          })
+
+```       
+ this.eachOrb( (orb) => {
+    if(Math.sqrt((this.mouseX-orb.x)*(this.mouseX-orb.x) + (this.mouseY-orb.y)*(this.mouseY-orb.y)) < orb.radius) {
+      if (this.selectedOrb != orb && !this.timer) {
+        this.timer = setTimeout(this.checkMouseUp.bind(this), TIMETOMOVE);
+        this.timeLeft = TIMETOMOVE/1000;
+        this.timerStart = Date.now();
+      } else if (this.selectedOrb != orb) {
+        this.swapOrbs(orb);
+      }
+    }
+  })
+```
+
+### Future Updates
+
+- [ ] Add levels
+- [ ] Add sound and music
