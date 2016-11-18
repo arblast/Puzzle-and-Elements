@@ -8,8 +8,9 @@ This game is based off of games such as Bejeweled and Candy Crush. The game bein
 
 With Puzzle and Elements, players will be able to:
 
-- [ ] Start, restart each level.
 - [ ] Move an orb around while swapping with any orbs it moves through.
+- [ ] Matching three or more orbs will cause the set to disappear.
+- [ ] Orbs will drop through any empty spaces, and new random orbs will spawn from top.
 - [ ] Select the difficulty (time to move)
 - [ ] Advance through the levels based on the resolved board.
 
