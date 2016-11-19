@@ -8,11 +8,17 @@ html {
 }
 
 canvas {
-  cursor: pointer;
+  cursor: grab;
+  cursor: -webkit-grab;
   height: 400px;
   background: url('assets/bg.png');
   background-size: 33.33%;
   border: 10px solid black;
+}
+
+.grabbing {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
 }
 
 #instructions {
