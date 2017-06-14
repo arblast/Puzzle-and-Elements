@@ -8,16 +8,16 @@ This game is based off of games such as Bejeweled and Candy Crush. The game bein
 
 ![ingamepicture](/assets/ingame.png)
 
-###Instructions
+### Instructions
 
 There are a total of 6 different elements: fire(red), water(blue), wood(green), electric(yellow), psion(purple), and wind(white). To pick up an orb, simply hold down the mouse on the orb you want to pick up. Moving through other orbs will swap them with the position of your current orb, so the current held orb will not change. The turn is over when either the timer runs out, or when the mouse is released or moves out of the game area, and the board will begin to resolve.The goal of this game is to make vertical or horizontal matches of three or more orbs of the same color, this will result in the orbs being cleared, and will cause new orbs to fall from the top. The amount of time to move can be adjusted by changing the difficulty at the bottom of the game. The statistics for matches made the previous turn can be viewed on the left side, and the amount of time remaining to move in the turn can be viewed on the right.
 Try getting more than 10 total match counts!
 
-###Tools
+### Tools
 
 This game was designed entirely with VanillaJS, HTML5, and canvas, with use of CSS3 for styling.
 
-###Implementation Details
+### Implementation Details
 
 The game consists of two main classes, the `Board` class and the `Orb` class. `Board` handles the logic behind all the matching, and holds all the `Orb`s. `Orb` contains logic for each individual orb such as the rendering and the animations. One of the initial challenges was handling the swapping of the orbs. To achieve this, each time the mouse moved, I iterate over each orb to check for collision, and if there is a swap is made.
 
