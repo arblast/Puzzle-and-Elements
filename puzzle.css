@@ -16,6 +16,7 @@ canvas {
   border: 10px solid black;
 }
 
+/*when orb is being moved*/
 .grabbing {
   cursor: grabbing;
   cursor: -webkit-grabbing;
